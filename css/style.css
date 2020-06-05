@@ -681,16 +681,24 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     /*Member of the month cards*/
 
         /*Card one or latest member of the month*/
+
         #member-card1 {
             padding: 10px;
         }
+        /*End of card 1*/
 
         /*Card two*/
+
         #member-card2 {
             padding: 10px;
         }
 
+        /*End of card 2*/
+
         /*Card three*/
+
         #member-card3 {
             padding: 10px;
         }
+
+        /*End of card 3*/

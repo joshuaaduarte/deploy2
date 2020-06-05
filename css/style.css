@@ -677,3 +677,20 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     margin: 10px;
     background-color: #080808;
 }
+
+    /*Member of the month cards*/
+
+        /*Card one or latest member of the month*/
+        #member-card1 {
+            padding: 10px;
+        }
+
+        /*Card two*/
+        #member-card2 {
+            padding: 10px;
+        }
+
+        /*Card three*/
+        #member-card3 {
+            padding: 10px;
+        }

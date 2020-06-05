@@ -655,3 +655,25 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 15px;
     }
 }
+
+/*This contains the edit for the our members page*/
+
+/*Carousel 1*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #080808;
+}

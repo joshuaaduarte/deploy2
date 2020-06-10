@@ -655,3 +655,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 15px;
     }
 }
+
+
+/* Chapter Development page */
+
+#chapdevphoto {
+
+    max-height: 320px;
+}

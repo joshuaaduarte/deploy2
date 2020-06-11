@@ -702,3 +702,26 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         }
 
         /*End of card 3*/
+
+    /* Highlighted Member Cards */
+
+        /* Modal style */
+        
+        .membermodal{
+            height: 325px;
+            overflow-y: scroll;
+        }
+
+        #membermodalfoot{
+            padding: 0%;
+        }
+
+        #cardbodymodal {
+            padding: 1rem;
+        }
+        .btn-secondary{
+            background-color: #D33A02;
+        }
+        .btn-secondary:hover{
+            background-color: rgb(185, 120, 96);
+        }

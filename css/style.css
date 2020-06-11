@@ -657,9 +657,86 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 
+
 /* Chapter Development page */
 
 #chapdevphoto {
 
     max-height: 320px;
+
+
+/*This contains the edit for the our members page*/
+
+/*Carousel 1*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #080808;
+}
+
+    /*Member of the month cards*/
+
+        /*Card one or latest member of the month*/
+
+        #member-card1 {
+            padding: 10px;
+        }
+        /*End of card 1*/
+
+        /*Card two*/
+
+        #member-card2 {
+            padding: 10px;
+        }
+
+        /*End of card 2*/
+
+        /*Card three*/
+
+        #member-card3 {
+            padding: 10px;
+        }
+
+        /*End of card 3*/
+
+    /* Highlighted Member Cards */
+
+        /* Modal style */
+        
+        .membermodal{
+            height: 325px;
+            overflow-y: scroll;
+        }
+
+        #membermodalfoot{
+            padding: 0%;
+        }
+
+        #cardbodymodal {
+            padding: 1rem;
+        }
+        .btn-secondary{
+            background-color: #D33A02;
+        }
+        .btn-secondary:hover{
+            background-color: rgb(185, 120, 96);
+        }
+
+#carouselimg{
+
+    max-height : 500px;
+    opacity: 75%;
 }

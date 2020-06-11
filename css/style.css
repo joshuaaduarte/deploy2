@@ -656,6 +656,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
+
+
 /*This contains the edit for the our members page*/
 
 /*Carousel 1*/
@@ -725,3 +727,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         .btn-secondary:hover{
             background-color: rgb(185, 120, 96);
         }
+
+#carouselimg{
+
+    max-height : 500px;
+    opacity: 75%;
+}

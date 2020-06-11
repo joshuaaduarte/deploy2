@@ -663,7 +663,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #chapdevphoto {
 
     max-height: 320px;
-
+}
 
 /*This contains the edit for the our members page*/
 
@@ -679,6 +679,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     border-radius: 50%;
     background-color: #3a3a3a;
     box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+
 }
 .carousel-indicators .active {
     width: 10px;

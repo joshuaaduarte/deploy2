@@ -719,3 +719,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         #cardbodymodal {
             padding: 1rem;
         }
+        .btn-secondary{
+            background-color: #D33A02;
+        }
+        .btn-secondary:hover{
+            background-color: rgb(185, 120, 96);
+        }

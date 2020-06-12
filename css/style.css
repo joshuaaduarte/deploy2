@@ -741,3 +741,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height : 500px;
     opacity: 75%;
 }
+
+/*This contains the edit for the our members page*/
+.membercard{
+    padding-bottom: 2%;
+}
+.pointpic{
+    padding: 2%;
+}

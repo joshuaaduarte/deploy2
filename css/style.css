@@ -741,6 +741,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height : 500px;
     opacity: 75%;
 }
+#sponsorcard {
+    padding-left: 10px;
+}
 
 /*This contains the edit for the our members page*/
 .membercard{

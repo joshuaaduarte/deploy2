@@ -745,6 +745,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-left: 10px;
 }
 
+#WidePic{
+    width:100%;
+}
+
 /*This contains the edit for the our members page*/
 .membercard{
     padding-bottom: 2%;

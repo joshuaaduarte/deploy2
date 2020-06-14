@@ -748,7 +748,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #WidePic{
     width:100%;
 }
-
+#footerLink{
+    height:25%;
+}
 /*This contains the edit for the our members page*/
 .membercard{
     padding-bottom: 2%;

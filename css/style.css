@@ -266,6 +266,13 @@ body {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+#waterTower{
+    background-image: url("../pictures/WaterTower.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
 #sponsor {
     background-image: url("../pictures/EboardWithSponsors.jpg");
@@ -301,6 +308,13 @@ body {
 
 #award {
     height: 75%;
+}
+
+#ShpeLogo{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 10px;
+    padding-right:10px;
 }
 
 .newback {
@@ -820,7 +834,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     width:100%;
 }
 #footerLink{
-    height:25%;
+    height: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 /*This contains the edit for the our members page*/
 .membercard {
@@ -830,8 +846,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .pointpic {
     padding: 2%;
 }
-
-
 #wrapper {
     display: flex;
     justify-content: center;

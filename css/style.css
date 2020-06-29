@@ -1,4 +1,4 @@
-body{
+body {
     background: #eeeeee;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
@@ -7,12 +7,12 @@ body{
 
 #footer {
     padding-top: 50px;
-	padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 /* index */
 #photo {
-    background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8),rgba(200, 200, 200, 0.8)),url("../pictures/members.jpg");
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8)), url("../pictures/members.jpg");
     padding: 150px;
     padding-top: 300px;
     padding-bottom: 300px;
@@ -41,9 +41,10 @@ body{
     padding-top: 300px;
     padding-bottom: 300px;
 }
+
 /* about */
 #confaward {
-    background-image: url("../pictures/IMG_20191031_182250.jpg"); 
+    background-image: url("../pictures/IMG_20191031_182250.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -51,7 +52,7 @@ body{
 }
 
 #lucas {
-    background-image: url("../pictures/IMG_8367.jpg"); 
+    background-image: url("../pictures/IMG_8367.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -83,7 +84,7 @@ body{
 }
 
 #volley {
-    background-image: url("../pictures/48701583832_a2b45026cf_c.jpg"); 
+    background-image: url("../pictures/48701583832_a2b45026cf_c.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -203,7 +204,7 @@ body{
 }
 
 #service {
-    background-image: url("../pictures/44783688344_93c94a2937_c.jpg"); 
+    background-image: url("../pictures/44783688344_93c94a2937_c.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -211,7 +212,7 @@ body{
 }
 
 #service2 {
-    background-image: url("../pictures/32668179447_dd312aa65d_c.jpg"); 
+    background-image: url("../pictures/32668179447_dd312aa65d_c.jpg");
     opacity: 0.75;
     padding: 150px;
     padding-top: 300px;
@@ -316,18 +317,20 @@ body{
 }
 
 .navbar-toggler:focus {
-    outline:none !important;   
+    outline: none !important;
 }
 
 .navbar-header.col {
     padding: 0 !important;
-}	
-.navbar {		
+}
+
+.navbar {
     background: #fff;
     padding-right: 16px;
     border-bottom: 1px solid #d6d6d6;
-    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
 }
+
 .nav-link img {
     border-radius: 50%;
     width: 36px;
@@ -336,6 +339,7 @@ body{
     float: left;
     margin-right: 10px;
 }
+
 .navbar .navbar-brand {
     color: rgb(80, 0, 0);
     padding-left: 0;
@@ -348,10 +352,15 @@ body{
     font-weight: bold;
     color: navy;
 }
-.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+
+.navbar ul.nav li a:hover,
+.navbar ul.nav li a:focus {
     color: rgb(80, 0, 0) !important;
 }
-.navbar ul.nav li.active a, .navbar ul.nav li.active a:hover, .navbar ul.nav li.active a:focus {
+
+.navbar ul.nav li.active a,
+.navbar ul.nav li.active a:hover,
+.navbar ul.nav li.active a:focus {
     color: rgb(80, 0, 0) !important;
     background: transparent !important;
 }
@@ -359,18 +368,22 @@ body{
 .navbar .nav-item i {
     font-size: 18px;
 }
+
 .navbar .dropdown-item i {
     font-size: 16px;
     min-width: 22px;
 }
-.navbar .nav-item.open > a {
+
+.navbar .nav-item.open>a {
     background: none !important;
 }
+
 .navbar .dropdown-menu {
     border-radius: 1px;
     border-color: #e5e5e5;
-    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
 }
+
 .navbar .dropdown-menu li a {
     color: #777;
     padding: 8px 20px;
@@ -393,11 +406,11 @@ body{
 .row {
     margin: auto;
     text-align: center;
-    color:  #777;
+    color: #777;
 }
 
-.nounder  {
-    color:white;
+.nounder {
+    color: white;
     text-decoration: none;
 }
 
@@ -409,7 +422,7 @@ body{
 .region {
     text-align: center;
     vertical-align: middle;
-    color:rgb(80, 0, 0);
+    color: rgb(80, 0, 0);
 }
 
 .container-fluid {
@@ -425,21 +438,23 @@ body{
 #footer.row {
     margin: auto;
     text-align: center;
-    color:  #777;
+    color: #777;
     background: #fff;
     border-top: 1px solid #d6d6d6;
-    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
 }
 
-.footer,.footer2 {
-    color:  #777;
+.footer,
+.footer2 {
+    color: #777;
     text-decoration: none;
     font-size: 25px;
     padding: 5px
 }
 
-.footer:hover,.footer2:hover {
-    color:  rgb(80, 0, 0);
+.footer:hover,
+.footer2:hover {
+    color: rgb(80, 0, 0);
     text-decoration: none;
     font-size: 25px;
     padding: 5px
@@ -461,7 +476,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
     width: 0;
     height: 2px;
-    background:navy;
+    background: navy;
     transition: width .3s;
 }
 
@@ -470,7 +485,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     transition: width .3s;
 }
 
-.btn-lg, .btn-lg:hover {
+.btn-lg,
+.btn-lg:hover {
     color: white;
     border-radius: 0;
     background-color: rgb(80, 0, 0);
@@ -502,7 +518,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-top: 20px;
 }
 
-.motto,.underline {
+.motto,
+.underline {
     border-bottom: 1px solid;
 }
 
@@ -515,8 +532,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     overflow: hidden;
 }
 
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
@@ -533,12 +550,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     height: auto;
 }
 
-.maroonLink,.maroonLink:hover {
+.maroonLink,
+.maroonLink:hover {
     color: rgb(80, 0, 0);
     text-decoration: none;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     width: 100%;
 }
 
@@ -550,20 +569,22 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: none;
 }
 
-.maroon, .maroon:hover {
+.maroon,
+.maroon:hover {
     background-color: #800000;
     color: white;
 }
 
 /* Get around ipad pro issue */
-@media (min-width: 1280px) and (max-width: 1365px) , (min-width: 1367px) {
+@media (min-width: 1280px) and (max-width: 1365px),
+(min-width: 1367px) {
     .plax {
         background-attachment: fixed;
     }
 }
 
 /*Calendar Adjustment*/
-@media (min-width: 300px) and (max-width: 1023px){
+@media (min-width: 300px) and (max-width: 1023px) {
     .big-container {
         display: none;
     }
@@ -573,6 +594,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .small-container {
         display: none;
     }
+
     #name {
         font-size: 12px;
     }
@@ -580,13 +602,16 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #posiiton {
         font-size: 12px;
     }
-    .eInfo,#major{
+
+    .eInfo,
+    #major {
         font-size: 12px;
     }
-    
+
     .footer2 {
         font-size: 15px;
     }
+
     .forIpad {
         display: inherit;
     }
@@ -596,7 +621,9 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /*fix issues with ipad*/
 @media (min-width: 760px) {
-    .motto,.icon {
+
+    .motto,
+    .icon {
         font-size: 25px !important;
     }
 }
@@ -616,41 +643,80 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     #photo {
         padding: 75px;
     }
-    #photo2,#photo3,#photo4,#subregional,#confaward,#lucas,
-    #chp,#memretreat,#icesocial,#imural,#faq,
-    #former,#former2,#former3,#former4,#leadshpe,
-    #emmanuelTalking,#awardPhoto,#bowl,#volley,
-    #pro,#resumeWork,#close,#service,#outreach,
-    #service2,#boil,#review,#fin,#sponsor,#acd,
-    #scholar,#acdWork {
+
+    #photo2,
+    #photo3,
+    #photo4,
+    #subregional,
+    #confaward,
+    #lucas,
+    #chp,
+    #memretreat,
+    #icesocial,
+    #imural,
+    #faq,
+    #former,
+    #former2,
+    #former3,
+    #former4,
+    #leadshpe,
+    #emmanuelTalking,
+    #awardPhoto,
+    #bowl,
+    #volley,
+    #pro,
+    #resumeWork,
+    #close,
+    #service,
+    #outreach,
+    #service2,
+    #boil,
+    #review,
+    #fin,
+    #sponsor,
+    #acd,
+    #scholar,
+    #acdWork {
         padding: 150px;
     }
+
     .reviewRes {
         max-width: 250px;
         max-height: 750px;
         height: auto;
         width: auto;
     }
-    .school,.nat {
+
+    .school,
+    .nat {
         font-size: 30px;
         border-bottom: solid 1px #777;
         padding-bottom: 5px;
     }
+
     .pillText {
         text-align: justify !important;
     }
+
     .icon {
         font-size: 15px !important;
     }
-    .motto,.rem,.non-mobile {
-       display: none;
+
+    .motto,
+    .rem,
+    .non-mobile {
+        display: none;
     }
+
     .for-mobile {
         display: inherit;
     }
-    .eInfo, #major {
+
+    .eInfo,
+    #major {
         font-size: 10px;
     }
+
     .footer2 {
         font-size: 15px;
     }
@@ -678,9 +744,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     border: none;
     border-radius: 50%;
     background-color: #3a3a3a;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 
 }
+
 .carousel-indicators .active {
     width: 10px;
     height: 10px;
@@ -688,67 +755,84 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-color: #080808;
 }
 
-    /*Member of the month cards*/
+/*Member of the month cards*/
 
-        /*Card one or latest member of the month*/
+/*Card one or latest member of the month*/
 
-        #member-card1 {
-            padding: 10px;
-        }
-        /*End of card 1*/
+#member-card1 {
+    padding: 10px;
+}
 
-        /*Card two*/
+/*End of card 1*/
 
-        #member-card2 {
-            padding: 10px;
-        }
+/*Card two*/
 
-        /*End of card 2*/
+#member-card2 {
+    padding: 10px;
+}
 
-        /*Card three*/
+/*End of card 2*/
 
-        #member-card3 {
-            padding: 10px;
-        }
+/*Card three*/
 
-        /*End of card 3*/
+#member-card3 {
+    padding: 10px;
+}
 
-    /* Highlighted Member Cards */
+/*End of card 3*/
 
-        /* Modal style */
-        
-        .membermodal{
-            height: 325px;
-            overflow-y: scroll;
-        }
+/* Highlighted Member Cards */
 
-        #membermodalfoot{
-            padding: 0%;
-        }
+/* Modal style */
 
-        #cardbodymodal {
-            padding: 1rem;
-        }
-        .btn-secondary{
-            background-color: #D33A02;
-        }
-        .btn-secondary:hover{
-            background-color: rgb(185, 120, 96);
-        }
+.membermodal {
+    height: 325px;
+    overflow-y: scroll;
+}
 
-#carouselimg{
+#membermodalfoot {
+    padding: 0%;
+}
 
-    max-height : 500px;
+#cardbodymodal {
+    padding: 1rem;
+}
+
+.btn-secondary {
+    background-color: #D33A02;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(185, 120, 96);
+}
+
+#carouselimg {
+
+    max-height: 500px;
     opacity: 75%;
 }
+
 #sponsorcard {
     padding-left: 10px;
 }
 
+#WidePic{
+    width:100%;
+}
+#footerLink{
+    height:25%;
+}
 /*This contains the edit for the our members page*/
-.membercard{
+.membercard {
     padding-bottom: 2%;
 }
-.pointpic{
+
+.pointpic {
     padding: 2%;
+}
+
+
+#wrapper {
+    display: flex;
+    justify-content: center;
 }

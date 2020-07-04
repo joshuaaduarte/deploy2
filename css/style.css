@@ -905,3 +905,27 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     top: 5px;
     padding-right: 5px;
 }
+
+#ourmemberphoto {
+    background-image: url("../pictures/sand_volleyball.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#highlightmem {
+    background-image: url("../pictures/subregionret.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#nursehome {
+    background-image: url("../pictures/nursing_home_volunteer.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}

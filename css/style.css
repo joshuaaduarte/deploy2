@@ -929,3 +929,35 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+
+#pasteventspic {
+    background-image: url("../pictures/mentorshpePair.png");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monthone {
+    background-image: url("../pictures/12th_man_courts.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monthtwo {
+    background-image: url("../pictures/SackPotatoRace.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#monththree {
+    background-image: url("../pictures/shpetina_dinner.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}

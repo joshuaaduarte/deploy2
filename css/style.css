@@ -961,3 +961,24 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+#committee1{
+    background-image: url("../pictures/MeetingDiscussingInternships.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#committee2{
+    background-image: url("../pictures/SHPEmembersCoding.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#committee3{
+    background-image: url("../pictures/GetFitWithSHPE.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}

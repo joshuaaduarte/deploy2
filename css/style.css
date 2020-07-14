@@ -914,6 +914,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-right: 5px;
 }
 
+/*This contains the edit for the pastevents page*/
+.stretch{
+    padding: 3% 10% 3% 10%;
+}
+
 #ourmemberphoto {
     background-image: url("../pictures/sand_volleyball.jpg");
     opacity: 0.75;

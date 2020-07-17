@@ -806,7 +806,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /* Highlighted Member Cards */
 
 /* Modal style */
-
+.committeemodal{
+    height: 200px;
+    overflow-y: hidden;
+}
 .membermodal {
     height: 325px;
     overflow-y: scroll;

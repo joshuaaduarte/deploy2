@@ -998,3 +998,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+
+.maxheightcard {
+    max-height: 420px;
+}
+
+.maxheightcard2{
+    max-height: 434px;
+}
+
+.maxcardheight {
+    max-height: 158px;
+}

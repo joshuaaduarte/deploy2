@@ -806,7 +806,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 /* Highlighted Member Cards */
 
 /* Modal style */
-
+.committeemodal{
+    height: 200px;
+    overflow-y: hidden;
+}
 .membermodal {
     height: 325px;
     overflow-y: scroll;
@@ -994,4 +997,24 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 150px;
     padding-top: 300px;
     padding-bottom: 300px;
+}
+
+.maxheightcard {
+    max-height: 420px;
+}
+
+.maxheightcard2{
+    max-height: 434px;
+}
+
+.maxcardheight {
+    max-height: 158px;
+}
+
+.eboardcard {
+    max-height: 462px;
+}
+
+.commcard {
+    max-height: 230px;
 }

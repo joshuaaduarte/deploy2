@@ -1010,3 +1010,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .maxcardheight {
     max-height: 158px;
 }
+
+.eboardcard {
+    max-height: 462px;
+}
+
+.commcard {
+    max-height: 230px;
+}

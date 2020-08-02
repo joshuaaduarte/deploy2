@@ -507,12 +507,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     transition: width .3s;
 }
 
-.btn-lg,
-.btn-lg:hover {
-    color: white;
-    border-radius: 0;
-    background-color: rgb(80, 0, 0);
-}
 
 .school {
     color: rgb(80, 0, 0);
@@ -823,14 +817,15 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 1rem;
 }
 
-.btn-secondary {
-    background-color: #D33A02;
-}
-
-.btn-secondary:hover {
+.btn:hover{
     background-color: rgb(185, 120, 96);
 }
-
+.btn  {
+    background-color: #0070C0;
+}
+.btn-outline-secondary{
+    color: white;
+}
 #carouselimg {
 
     max-height: 500px;
@@ -893,7 +888,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     width: 100vw;
     height: 100vh;
     max-width: 100%;

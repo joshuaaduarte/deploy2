@@ -1013,3 +1013,25 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .commcard {
     max-height: 230px;
 }
+/*This contains the edit for the sponsorshpe page*/
+marquee img{
+    height: 100px;
+    padding: 2%;
+    width: auto;
+}
+marquee #plat{
+    background-color: #E5E4E2;
+    display: inline-flex;
+}
+marquee #gold{
+    background-color: gold;
+    display: inline-flex;
+}
+marquee #silver{
+    background-color: silver;
+    display: inline-flex;
+}
+marquee #bronze{
+    background-color: #CD7F32;
+    display: inline-flex;
+}

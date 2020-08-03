@@ -1019,19 +1019,6 @@ marquee img{
     padding: 2%;
     width: auto;
 }
-marquee #plat{
-    background-color: #E5E4E2;
-    display: inline-flex;
-}
-marquee #gold{
-    background-color: gold;
-    display: inline-flex;
-}
-marquee #silver{
-    background-color: silver;
-    display: inline-flex;
-}
-marquee #bronze{
-    background-color: #CD7F32;
-    display: inline-flex;
+#platpic img{
+    height: 350px;
 }

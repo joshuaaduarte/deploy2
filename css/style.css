@@ -98,6 +98,13 @@ body {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+#mentor{
+    background-image: url("../pictures/mentorshpe_plex.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
 #study {
     background-image: url("../pictures/studyhours.jpg");
@@ -739,9 +746,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 
+/* Academic Development page */
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);   
+}
 
 /* Chapter Development page */
-
 #chapdevphoto {
 
     max-height: 320px;
@@ -841,6 +853,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 #footerLink{
     height: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#horizontalfooterLink{
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -1018,7 +1034,4 @@ marquee img{
     height: 100px;
     padding: 2%;
     width: auto;
-}
-#platpic img{
-    height: 350px;
 }

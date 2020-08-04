@@ -843,11 +843,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height: 500px;
     opacity: 75%;
 }
-
-#sponsorcard {
-    padding-left: 10px;
-}
-
 #WidePic{
     width:100%;
 }
@@ -1030,8 +1025,18 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     max-height: 230px;
 }
 /*This contains the edit for the sponsorshpe page*/
-marquee img{
+.scroll-parent{
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.scroll-parent img{
     height: 100px;
     padding: 2%;
     width: auto;
+}
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }

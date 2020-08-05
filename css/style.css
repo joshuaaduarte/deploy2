@@ -98,6 +98,13 @@ body {
     padding-top: 300px;
     padding-bottom: 300px;
 }
+#mentor{
+    background-image: url("../pictures/mentorshpe_plex.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
 #study {
     background-image: url("../pictures/studyhours.jpg");
@@ -507,12 +514,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     transition: width .3s;
 }
 
-.btn-lg,
-.btn-lg:hover {
-    color: white;
-    border-radius: 0;
-    background-color: rgb(80, 0, 0);
-}
 
 .school {
     color: rgb(80, 0, 0);
@@ -745,9 +746,14 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 
+/* Academic Development page */
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);   
+}
 
 /* Chapter Development page */
-
 #chapdevphoto {
 
     max-height: 320px;
@@ -823,29 +829,29 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     padding: 1rem;
 }
 
-.btn-secondary {
-    background-color: #D33A02;
-}
-
-.btn-secondary:hover {
+.btn:hover{
     background-color: rgb(185, 120, 96);
 }
-
+.btn  {
+    background-color: #0070C0;
+}
+.btn-outline-secondary{
+    color: white;
+}
 #carouselimg {
 
     max-height: 500px;
     opacity: 75%;
 }
-
-#sponsorcard {
-    padding-left: 10px;
-}
-
 #WidePic{
     width:100%;
 }
 #footerLink{
     height: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#horizontalfooterLink{
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -893,7 +899,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     width: 100vw;
     height: 100vh;
     max-width: 100%;
@@ -1017,4 +1023,20 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .commcard {
     max-height: 230px;
+}
+/*This contains the edit for the sponsorshpe page*/
+.scroll-parent{
+
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.scroll-parent img{
+    height: 100px;
+    padding: 2%;
+    width: auto;
+}
+#center-pic-horizontal img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }

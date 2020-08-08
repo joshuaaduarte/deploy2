@@ -752,7 +752,12 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     top: 50%;
     transform: translateY(-50%);   
 }
-
+@media (min-width: 1200px){
+    #horizontalfooterLink{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
 /* Chapter Development page */
 #chapdevphoto {
 
@@ -848,10 +853,6 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 #footerLink{
     height: 25%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-#horizontalfooterLink{
     padding-top: 15px;
     padding-bottom: 15px;
 }
